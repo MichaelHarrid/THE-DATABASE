@@ -22,7 +22,7 @@ The following markers used in the ERD defined as: </br>
 The data used on the database was get on this website [Mackaroo Mockup data] (https://lucid.app/).
 
 ### Table name and description
-***Student table*** - is responsible for data storage on student’s name and last name as well as details and status.</br>
+***Student table*** - is responsible for data storage on student’s name and last name as well as details and status.<br/>
 **Admin’s table** - is responsible for data storage on admin’s name and last name as well as details and status.</br>
 **Address table** – is responsible for data storage on student and admin’s address.</br>
 **IATF’s table** - is responsible for data storage on student and admin’s address status if it is high-risk, lockdown or not.</br>
@@ -36,17 +36,26 @@ The data used on the database was get on this website [Mackaroo Mockup data] (ht
 **Cashier table** - is responsible for data storage on student’s financial status, to check one’s balance.</br>
 **Auto pay table** - is responsible for data storage if the student enrolled with auto pay or not, if she enrolled then the school will automatically deduct the balance using the card or checking account in file.</br></br>
 
-# Functional Dependency Diagram (FDD)
+# Functional Dependency Diagram (FDD) </br>
+
 Functional Dependency Diagram (FDD) is a constraint that determines the relation of one attribute to another attribute in a Database Management System (DBMS). Functional Dependency helps to maintain the quality of data in the database. It plays a vital role to find the difference between good and bad database design.
 
+![](file/img/FDD.png) </br></br>
 
+ The diagram shows that each tables had undergone normalization removing all dependencies that can cause anomalies. </br>
+ 
+# Complex Queries associated with the database </br>
 
+### Here are a list of queries with their sample output from the DBRMS: </br>
  ### Query 5 </br>
   The **MINUS or EXCEPT command** operates on two SQL statements. It takes all the results from the first SQL statement, and then subtract out the ones that are present in the second SQL statement to get the final result set. If the second SQL statement includes results not present in the first SQL statement, such results are ignored. </br>
 
  **MINUS or EXCEPT command** is important so that we will know the difference from the first data we compared from the second data. </br>
  
  ![](file/img/except.PNG) </br>
+ 
+
+ 
  
  ### Result:
  ![](file/img/except1.PNG) </br>
