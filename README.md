@@ -47,16 +47,41 @@ Functional Dependency Diagram (FDD) is a constraint that determines the relation
 # Complex Queries associated with the database </br>
 
 ### Here are a list of queries with their sample output from the DBRMS: </br>
- ### Query 5 </br>
+
+ ### Query 1 </br>
   The **MINUS or EXCEPT command** operates on two SQL statements. It takes all the results from the first SQL statement, and then subtract out the ones that are present in the second SQL statement to get the final result set. If the second SQL statement includes results not present in the first SQL statement, such results are ignored. </br>
 
  **MINUS or EXCEPT command** is important so that we will know the difference from the first data we compared from the second data. </br>
  
  ![](file/img/except.PNG) </br>
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
  
- 
- ### Result:
- ![](file/img/except1.PNG) </br>
+
  
