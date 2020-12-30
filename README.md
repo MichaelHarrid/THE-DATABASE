@@ -12,4 +12,18 @@ ER diagram of the Student Management System shows the connection between entitie
 
 The following markers used in the ERD defined as: </br>
 - PK –Primary Key only
-- FK- Foreign key only
+- FK- Foreign key only </br>
+
+![](file/img/ERD.png)
+
+
+ ### Query 5 </br>
+  The **MINUS or EXCEPT command** operates on two SQL statements. It takes all the results from the first SQL statement, and then subtract out the ones that are present in the second SQL statement to get the final result set. If the second SQL statement includes results not present in the first SQL statement, such results are ignored. </br>
+
+ **MINUS or EXCEPT command** is important so that we will know the difference from the first data we compared from the second data. </br>
+ 
+ ![](file/img/except.PNG) </br>
+ 
+ ### Result:
+ ![](file/img/except1.PNG) </br>
+ 
