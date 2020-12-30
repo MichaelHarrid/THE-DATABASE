@@ -85,7 +85,7 @@ The **INTERSECT command in SQL** combines the results of two SQL statement and r
 ![](file/img/intersect.PNG) </br>
 
 ### Result:  </br>
-![](file/img/ intersect1.PNG) </br>
+![](file/img/intersect1.PNG) </br>
 
 
 ### Query 5 </br>
@@ -96,7 +96,7 @@ The **MINUS or EXCEPT command** operates on two SQL statements. It takes all the
 ![](file/img/except.PNG) </br>
 
 ### Result:  </br>
-![](file/img/ except1.PNG) </br>
+![](file/img/except1.PNG) </br>
 
 
 ### Query 6 </br>
@@ -107,7 +107,7 @@ The **LIMIT **clause restricts the number of results returned from a SQL stateme
 ![](file/img/limit.PNG) </br>
 
 ### Result:  </br>
-![](file/img/ limit1.PNG) </br>
+![](file/img/limit1.PNG) </br>
 
 ### Query 7 </br>
 
@@ -117,7 +117,7 @@ The usage of** WITH clause** is very similar to creating tables. When you create
 ![](file/img/with.PNG) </br>
 
 ### Result:  </br>
-![](file/img/ with1.PNG) </br>
+![](file/img/with1.PNG) </br>
 
 ### Query 8 </br>
 **EXISTS** is a Boolean operator used in a subquery to test whether the inner query returns any row. If it does, then the outer query proceeds. If not, the outer query does not execute, and the entire SQL statement returns nothing. </br></br>
