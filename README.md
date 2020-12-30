@@ -14,7 +14,31 @@ The following markers used in the ERD defined as: </br>
 - PK –Primary Key only
 - FK- Foreign key only </br>
 
-![](file/img/ERD.png)
+![](file/img/ERD.png) </br>
+
+### The following tools that helped to create the database are the following:
+[Lucid Chart Diagram tools] (https://online.visual-paradigm.com/)  [Mackaroo Mockup data] (https://lucid.app/) </br>
+
+The data used on the database was get on this website [Mackaroo Mockup data] (https://lucid.app/).
+
+### Table name and description
+***Student table*** - is responsible for data storage on student’s name and last name as well as details and status.</br>
+**Admin’s table** - is responsible for data storage on admin’s name and last name as well as details and status.</br>
+**Address table** – is responsible for data storage on student and admin’s address.</br>
+**IATF’s table** - is responsible for data storage on student and admin’s address status if it is high-risk, lockdown or not.</br>
+**Quarantine table** - is responsible for data storage on student and admin’s health if he or she has Covid19.</br>
+**Registrar table** - is responsible for data storage on student’s school requirements as well as the course and year.</br>
+**Subjects table** - is responsible for data storage on student’s subjects.</br>
+**Course table** - is responsible for data storage on student’s course.</br>
+**Details table** - is responsible for data storage on student and admin’s details that includes personal email and phone number.</br>
+**Status table** - is responsible for data storage on student’s status that includes if he or she is regular student, Student Assistant or scholarship from the government.</br>
+**sa table** - is responsible for data storage if the student is a Student assistant or not and to check what department she is if she is a S.A.</br>
+**Cashier table** - is responsible for data storage on student’s financial status, to check one’s balance.</br>
+**Auto pay table** - is responsible for data storage if the student enrolled with auto pay or not, if she enrolled then the school will automatically deduct the balance using the card or checking account in file.</br></br>
+
+# Functional Dependency Diagram (FDD)
+Functional Dependency Diagram (FDD) is a constraint that determines the relation of one attribute to another attribute in a Database Management System (DBMS). Functional Dependency helps to maintain the quality of data in the database. It plays a vital role to find the difference between good and bad database design.
+
 
 
  ### Query 5 </br>
